@@ -1,10 +1,10 @@
 App.AdminMethod=STDIO
 App.ApplicationReadyMode=Immediate
 App.BaseDirectory=./dont-starve-together/343050/
-App.CommandLineArgs=-persistent_storage_root "../dstserver" -conf_dir "dstserver_config" -shard shard {{$FormattedArgs}}
+App.CommandLineArgs=-persistent_storage_root ./dont-starve-together-startcluster.sh
 App.CommandLineParameterDelimiter= 
 App.CommandLineParameterFormat=-{0} "{1}"
-App.DisplayName=Don't Starve Together
+App.DisplayName=Don't Starve Together Caves
 App.EnvironmentVariables={"LD_LIBRARY_PATH": "./linux64:%LD_LIBRARY_PATH%", "SteamAppId": "322330"}
 App.ExecutableLinux=343050/bin/dontstarve_dedicated_server_nullrenderer
 App.ExecutableWin=343050\bin\dontstarve_dedicated_server_nullrenderer.exe
